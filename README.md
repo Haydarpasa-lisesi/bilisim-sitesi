@@ -8,49 +8,7 @@ Bu proje web eğitimi alan öğrenciler için takım çalışmasını öğretmek
 
 
 ## Projede çalışmak
-- [nasıl katkı yaparım?](https://opensource.com/article/19/7/create-pull-request-github) 
-- Öncekilkle bu repository'i forklamanız lazım
-- Forkladıktan sonra kendi reponuzu klonlayın
-- yeni bir branch oluşturun
-- Orjinal repoya linkleyin
-- Ayrıntılar için yukarıdaki linke bakın
 
-- Eğer yeni bir değişiklik gelirse onu farketmenizi sağlar.
-
-```bash
-git remote add upstream git@github.com:Haydarpasa-lisesi/bilisim-sitesi.git
-
-```
-
-- Olup olmadığını test edin.
-
-```bash
-git remote -v
-```
-
-- Eğer orjinal repoda değişiklik varsa orjinal repodaki kodları kendi bilgisayarınıza çekmeyi sağlar. 
-
-```bash
-git fetch upstream
-```
-
-```bash
-git remote -v
-```
-
-- Bilgisayarınızdaki kod ile orjinal kodu birleştirir.
-
-```bash
-git merge upstream/master
-```
-
-- Son iki komutun kısa yolu
-
-```bash
-git fetch upstream
-git merge upstream/master
-
-```
 
 ## Renk Referansı
 
