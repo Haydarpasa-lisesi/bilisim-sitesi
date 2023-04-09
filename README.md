@@ -28,6 +28,45 @@ Visual Studio code'u açın
 
 live server'ı çalıştırın
 
+## Projede çalışmak
+
+Eğer yeni bir değişiklik gelirse onu farketmenizi sağlar.
+
+```bash
+git remote add upstream git@github.com:Haydarpasa-lisesi/bilisim-sitesi.git
+
+```
+
+Olup olmadığını test edin.
+
+```bash
+git remote -v
+```
+
+Eğer orjinal repoda değişiklik varsa orjinal repodaki kodları kendi bilgisayarınıza çekmeyi sağlar. 
+
+```bash
+git fetch upstream
+```
+
+```bash
+git remote -v
+```
+
+Bilgisayarınızdaki kod ile orjinal kodu birleştirir.
+
+```bash
+git merge upstream/master
+```
+
+Son iki komutun kısa yolu
+
+```bash
+git fetch upstream
+git merge upstream/master
+
+```
+
 ## Renk Referansı
 
 | Renk             | Hex                                                                |
