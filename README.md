@@ -6,30 +6,9 @@
 
 Bu proje web eğitimi alan öğrenciler için takım çalışmasını öğretmek ve gerçek bir proje yapmak amacıyla Haydarpaşa Lisesi için geliştirilmektedir.
 
-## Bilgisayarınızda Çalıştırın
-
-Projeyi klonlayın
-
-```bash
-  git clone git@github.com:Haydarpasa-lisesi/bilisim-sitesi.git
-```
-
-Proje dizinine gidin
-
-```bash
-  cd bilisim-sitesi
-```
-
-Visual Studio code'u açın
-
-```bash
-  code .
-```
-
-live server'ı çalıştırın
 
 ## Projede çalışmak
-
+- [nasıl katkı yaparım?](https://opensource.com/article/19/7/create-pull-request-github)
 Eğer yeni bir değişiklik gelirse onu farketmenizi sağlar.
 
 ```bash
