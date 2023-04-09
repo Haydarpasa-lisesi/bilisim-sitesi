@@ -6,27 +6,51 @@
 
 Bu proje web eğitimi alan öğrenciler için takım çalışmasını öğretmek ve gerçek bir proje yapmak amacıyla Haydarpaşa Lisesi için geliştirilmektedir.
 
-## Bilgisayarınızda Çalıştırın
 
-Projeyi klonlayın
+## Projede çalışmak
+- [nasıl katkı yaparım?](https://opensource.com/article/19/7/create-pull-request-github) 
+- Öncekilkle bu repository'i forklamanız lazım
+- Forkladıktan sonra kendi reponuzu klonlayın
+- yeni bir branch oluşturun
+- Orjinal repoya linkleyin
+- Ayrıntılar için yukarıdaki linke bakın
 
-```bash
-  git clone git@github.com:Haydarpasa-lisesi/bilisim-sitesi.git
-```
-
-Proje dizinine gidin
-
-```bash
-  cd bilisim-sitesi
-```
-
-Visual Studio code'u açın
+- Eğer yeni bir değişiklik gelirse onu farketmenizi sağlar.
 
 ```bash
-  code .
+git remote add upstream git@github.com:Haydarpasa-lisesi/bilisim-sitesi.git
+
 ```
 
-live server'ı çalıştırın
+- Olup olmadığını test edin.
+
+```bash
+git remote -v
+```
+
+- Eğer orjinal repoda değişiklik varsa orjinal repodaki kodları kendi bilgisayarınıza çekmeyi sağlar. 
+
+```bash
+git fetch upstream
+```
+
+```bash
+git remote -v
+```
+
+- Bilgisayarınızdaki kod ile orjinal kodu birleştirir.
+
+```bash
+git merge upstream/master
+```
+
+- Son iki komutun kısa yolu
+
+```bash
+git fetch upstream
+git merge upstream/master
+
+```
 
 ## Renk Referansı
 
