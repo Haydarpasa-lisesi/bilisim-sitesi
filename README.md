@@ -37,6 +37,6 @@ Bu proje web eğitimi alan öğrenciler için takım çalışmasını öğretmek
 
 - [@dukeofsoftware](https://github.com/dukeofsoftware) Mentörlük ve kordinasyon.
 - [@EmirTolluoglu](https://github.com/EmirTolluoglu) Mentörlük ve kordinasyon.
-- [@Sehergurel](https://github.com/noname-nope) ön uç geliştirme.
+- [@noname-nope](https://github.com/noname-nope) ön uç geliştirme.
 - [@vornehmpanther27](https://github.com/vornehmpanther27) ön uç geliştirme.
   
